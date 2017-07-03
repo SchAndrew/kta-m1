@@ -1,0 +1,1912 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="windowModality">
+   <enum>Qt::ApplicationModal</enum>
+  </property>
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1024</width>
+    <height>768</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>1024</width>
+    <height>768</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>1024</width>
+    <height>768</height>
+   </size>
+  </property>
+  <property name="font">
+   <font>
+    <pointsize>14</pointsize>
+   </font>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true"/>
+  </property>
+  <widget class="QWidget" name="centralWidget">
+   <widget class="QWidget" name="waForm" native="true">
+    <property name="geometry">
+     <rect>
+      <x>4</x>
+      <y>4</y>
+      <width>1016</width>
+      <height>511</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QFrame" name="frKbd">
+    <property name="geometry">
+     <rect>
+      <x>170</x>
+      <y>530</y>
+      <width>851</width>
+      <height>231</height>
+     </rect>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::Box</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Sunken</enum>
+    </property>
+    <property name="lineWidth">
+     <number>0</number>
+    </property>
+    <widget class="QWidget" name="gridLayoutWidget">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>0</y>
+       <width>851</width>
+       <height>231</height>
+      </rect>
+     </property>
+     <layout class="QGridLayout" name="glKbd">
+      <property name="sizeConstraint">
+       <enum>QLayout::SetNoConstraint</enum>
+      </property>
+      <property name="leftMargin">
+       <number>0</number>
+      </property>
+      <property name="topMargin">
+       <number>0</number>
+      </property>
+      <property name="rightMargin">
+       <number>0</number>
+      </property>
+      <property name="bottomMargin">
+       <number>0</number>
+      </property>
+      <item row="1" column="4">
+       <widget class="QPushButton" name="bn205">
+        <property name="minimumSize">
+         <size>
+          <width>50</width>
+          <height>50</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>50</width>
+          <height>50</height>
+         </size>
+        </property>
+        <property name="focusPolicy">
+         <enum>Qt::NoFocus</enum>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: cornsilk;
+border-style: none;
+border-width: 1px;
+border-radius: 5px;
+border-color: cornsilk;
+font: bold 18px;
+</string>
+        </property>
+        <property name="text">
+         <string>Е</string>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="6">
+       <widget class="QPushButton" name="bn207">
+        <property name="minimumSize">
+         <size>
+          <width>50</width>
+          <height>50</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>50</width>
+          <height>50</height>
+         </size>
+        </property>
+        <property name="focusPolicy">
+         <enum>Qt::NoFocus</enum>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: cornsilk;
+border-style: none;
+border-width: 1px;
+border-radius: 5px;
+border-color: cornsilk;
+font: bold 18px;
+</string>
+        </property>
+        <property name="text">
+         <string>Г</string>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="9">
+       <widget class="QPushButton" name="bn310">
+        <property name="minimumSize">
+         <size>
+          <width>50</width>
+          <height>50</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>50</width>
+          <height>50</height>
+         </size>
+        </property>
+        <property name="focusPolicy">
+         <enum>Qt::NoFocus</enum>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: cornsilk;
+border-style: none;
+border-width: 1px;
+border-radius: 5px;
+border-color: cornsilk;
+font: bold 18px;
+</string>
+        </property>
+        <property name="text">
+         <string>Ж</string>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="10">
+       <widget class="QPushButton" name="bn111">
+        <property name="minimumSize">
+         <size>
+          <width>50</width>
+          <height>50</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>50</width>
+          <height>50</height>
+         </size>
+        </property>
+        <property name="focusPolicy">
+         <enum>Qt::NoFocus</enum>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: lightsteelblue;
+border-style: none;
+border-width: 1px;
+border-radius: 5px;
+border-color: lightsteelblue;
+font: bold 18px;
+</string>
+        </property>
+        <property name="text">
+         <string>-</string>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="5">
+       <widget class="QPushButton" name="bn206">
+        <property name="minimumSize">
+         <size>
+          <width>50</width>
+          <height>50</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>50</width>
+          <height>50</height>
+         </size>
+        </property>
+        <property name="focusPolicy">
+         <enum>Qt::NoFocus</enum>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: cornsilk;
+border-style: none;
+border-width: 1px;
+border-radius: 5px;
+border-color: cornsilk;
+font: bold 18px;
+</string>
+        </property>
+        <property name="text">
+         <string>Н</string>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="3">
+       <widget class="QPushButton" name="bn204">
+        <property name="minimumSize">
+         <size>
+          <width>50</width>
+          <height>50</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>50</width>
+          <height>50</height>
+         </size>
+        </property>
+        <property name="focusPolicy">
+         <enum>Qt::NoFocus</enum>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: cornsilk;
+border-style: none;
+border-width: 1px;
+border-radius: 5px;
+border-color: cornsilk;
+font: bold 18px;
+</string>
+        </property>
+        <property name="text">
+         <string>К</string>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="8">
+       <widget class="QPushButton" name="bn109">
+        <property name="minimumSize">
+         <size>
+          <width>50</width>
+          <height>50</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>50</width>
+          <height>50</height>
+         </size>
+        </property>
+        <property name="focusPolicy">
+         <enum>Qt::NoFocus</enum>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: lightgreen;
+border-style: none;
+border-width: 1px;
+border-radius: 5px;
+border-color: lightgreen;
+font: bold 18px;
+</string>
+        </property>
+        <property name="text">
+         <string>9</string>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="11">
+       <widget class="QPushButton" name="bn212">
+        <property name="minimumSize">
+         <size>
+          <width>50</width>
+          <height>50</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>50</width>
+          <height>50</height>
+         </size>
+        </property>
+        <property name="focusPolicy">
+         <enum>Qt::NoFocus</enum>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: cornsilk;
+border-style: none;
+border-width: 1px;
+border-radius: 5px;
+border-color: cornsilk;
+font: bold 18px;
+</string>
+        </property>
+        <property name="text">
+         <string>Ъ</string>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="2">
+       <widget class="QPushButton" name="bn203">
+        <property name="minimumSize">
+         <size>
+          <width>50</width>
+          <height>50</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>50</width>
+          <height>50</height>
+         </size>
+        </property>
+        <property name="focusPolicy">
+         <enum>Qt::NoFocus</enum>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: cornsilk;
+border-style: none;
+border-width: 1px;
+border-radius: 5px;
+border-color: cornsilk;
+font: bold 18px;
+</string>
+        </property>
+        <property name="text">
+         <string>У</string>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="6">
+       <widget class="QPushButton" name="bn107">
+        <property name="minimumSize">
+         <size>
+          <width>50</width>
+          <height>50</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>50</width>
+          <height>50</height>
+         </size>
+        </property>
+        <property name="focusPolicy">
+         <enum>Qt::NoFocus</enum>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: lightgreen;
+border-style: none;
+border-width: 1px;
+border-radius: 5px;
+border-color: lightgreen;
+font: bold 18px;
+</string>
+        </property>
+        <property name="text">
+         <string>7</string>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="0">
+       <widget class="QPushButton" name="bn101">
+        <property name="minimumSize">
+         <size>
+          <width>50</width>
+          <height>50</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>50</width>
+          <height>50</height>
+         </size>
+        </property>
+        <property name="focusPolicy">
+         <enum>Qt::NoFocus</enum>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: lightgreen;
+border-style: none;
+border-width: 1px;
+border-radius: 5px;
+border-color: lightgreen;
+font: bold 18px;
+</string>
+        </property>
+        <property name="text">
+         <string>1</string>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="0">
+       <widget class="QPushButton" name="bn201">
+        <property name="minimumSize">
+         <size>
+          <width>50</width>
+          <height>50</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>50</width>
+          <height>50</height>
+         </size>
+        </property>
+        <property name="focusPolicy">
+         <enum>Qt::NoFocus</enum>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: cornsilk;
+border-style: none;
+border-width: 1px;
+border-radius: 5px;
+border-color: cornsilk;
+font: bold 18px;
+</string>
+        </property>
+        <property name="text">
+         <string>Й</string>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="5">
+       <widget class="QPushButton" name="bn106">
+        <property name="minimumSize">
+         <size>
+          <width>50</width>
+          <height>50</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>50</width>
+          <height>50</height>
+         </size>
+        </property>
+        <property name="focusPolicy">
+         <enum>Qt::NoFocus</enum>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: lightgreen;
+border-style: none;
+border-width: 1px;
+border-radius: 5px;
+border-color: lightgreen;
+font: bold 18px;
+</string>
+        </property>
+        <property name="text">
+         <string>6</string>
+        </property>
+       </widget>
+      </item>
+      <item row="3" column="0">
+       <widget class="QPushButton" name="bn401">
+        <property name="minimumSize">
+         <size>
+          <width>50</width>
+          <height>50</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>50</width>
+          <height>50</height>
+         </size>
+        </property>
+        <property name="focusPolicy">
+         <enum>Qt::NoFocus</enum>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: cornsilk;
+border-style: none;
+border-width: 1px;
+border-radius: 5px;
+border-color: cornsilk;
+font: bold 18px;
+</string>
+        </property>
+        <property name="text">
+         <string>Я</string>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="1">
+       <widget class="QPushButton" name="bn202">
+        <property name="minimumSize">
+         <size>
+          <width>50</width>
+          <height>50</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>50</width>
+          <height>50</height>
+         </size>
+        </property>
+        <property name="focusPolicy">
+         <enum>Qt::NoFocus</enum>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: cornsilk;
+border-style: none;
+border-width: 1px;
+border-radius: 5px;
+border-color: cornsilk;
+font: bold 18px;
+</string>
+        </property>
+        <property name="text">
+         <string>Ц</string>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="4">
+       <widget class="QPushButton" name="bn105">
+        <property name="minimumSize">
+         <size>
+          <width>50</width>
+          <height>50</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>50</width>
+          <height>50</height>
+         </size>
+        </property>
+        <property name="focusPolicy">
+         <enum>Qt::NoFocus</enum>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: lightgreen;
+border-style: none;
+border-width: 1px;
+border-radius: 5px;
+border-color: lightgreen;
+font: bold 18px;
+</string>
+        </property>
+        <property name="text">
+         <string>5</string>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="9">
+       <widget class="QPushButton" name="bn110">
+        <property name="minimumSize">
+         <size>
+          <width>50</width>
+          <height>50</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>50</width>
+          <height>50</height>
+         </size>
+        </property>
+        <property name="focusPolicy">
+         <enum>Qt::NoFocus</enum>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: lightgreen;
+border-style: none;
+border-width: 1px;
+border-radius: 5px;
+border-color: lightgreen;
+font: bold 18px;
+</string>
+        </property>
+        <property name="text">
+         <string>0</string>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="2">
+       <widget class="QPushButton" name="bn103">
+        <property name="minimumSize">
+         <size>
+          <width>50</width>
+          <height>50</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>50</width>
+          <height>50</height>
+         </size>
+        </property>
+        <property name="focusPolicy">
+         <enum>Qt::NoFocus</enum>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: lightgreen;
+border-style: none;
+border-width: 1px;
+border-radius: 5px;
+border-color: lightgreen;
+font: bold 18px;
+</string>
+        </property>
+        <property name="text">
+         <string>3</string>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="1">
+       <widget class="QPushButton" name="bn102">
+        <property name="minimumSize">
+         <size>
+          <width>50</width>
+          <height>50</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>50</width>
+          <height>50</height>
+         </size>
+        </property>
+        <property name="focusPolicy">
+         <enum>Qt::NoFocus</enum>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: lightgreen;
+border-style: none;
+border-width: 1px;
+border-radius: 5px;
+border-color: lightgreen;
+font: bold 18px;
+</string>
+        </property>
+        <property name="text">
+         <string>2</string>
+        </property>
+       </widget>
+      </item>
+      <item row="3" column="3">
+       <widget class="QPushButton" name="bn404">
+        <property name="minimumSize">
+         <size>
+          <width>50</width>
+          <height>50</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>50</width>
+          <height>50</height>
+         </size>
+        </property>
+        <property name="focusPolicy">
+         <enum>Qt::NoFocus</enum>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: cornsilk;
+border-style: none;
+border-width: 1px;
+border-radius: 5px;
+border-color: cornsilk;
+font: bold 18px;
+</string>
+        </property>
+        <property name="text">
+         <string>М</string>
+        </property>
+       </widget>
+      </item>
+      <item row="3" column="4">
+       <widget class="QPushButton" name="bn405">
+        <property name="minimumSize">
+         <size>
+          <width>50</width>
+          <height>50</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>50</width>
+          <height>50</height>
+         </size>
+        </property>
+        <property name="focusPolicy">
+         <enum>Qt::NoFocus</enum>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: cornsilk;
+border-style: none;
+border-width: 1px;
+border-radius: 5px;
+border-color: cornsilk;
+font: bold 18px;
+</string>
+        </property>
+        <property name="text">
+         <string>И</string>
+        </property>
+       </widget>
+      </item>
+      <item row="3" column="11">
+       <widget class="QPushButton" name="bn412">
+        <property name="minimumSize">
+         <size>
+          <width>50</width>
+          <height>50</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>50</width>
+          <height>50</height>
+         </size>
+        </property>
+        <property name="focusPolicy">
+         <enum>Qt::NoFocus</enum>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: lightsteelblue;
+border-style: none;
+border-width: 1px;
+border-radius: 5px;
+border-color: lightsteelblue;
+font: bold 18px;
+</string>
+        </property>
+        <property name="text">
+         <string>/</string>
+        </property>
+       </widget>
+      </item>
+      <item row="3" column="9">
+       <widget class="QPushButton" name="bn410">
+        <property name="minimumSize">
+         <size>
+          <width>50</width>
+          <height>50</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>50</width>
+          <height>50</height>
+         </size>
+        </property>
+        <property name="focusPolicy">
+         <enum>Qt::NoFocus</enum>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: cornsilk;
+border-style: none;
+border-width: 1px;
+border-radius: 5px;
+border-color: cornsilk;
+font: bold 18px;
+</string>
+        </property>
+        <property name="text">
+         <string>Б</string>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="7">
+       <widget class="QPushButton" name="bn108">
+        <property name="minimumSize">
+         <size>
+          <width>50</width>
+          <height>50</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>50</width>
+          <height>50</height>
+         </size>
+        </property>
+        <property name="focusPolicy">
+         <enum>Qt::NoFocus</enum>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: lightgreen;
+border-style: none;
+border-width: 1px;
+border-radius: 5px;
+border-color: lightgreen;
+font: bold 18px;
+</string>
+        </property>
+        <property name="text">
+         <string>8</string>
+        </property>
+       </widget>
+      </item>
+      <item row="3" column="5">
+       <widget class="QPushButton" name="bn406">
+        <property name="minimumSize">
+         <size>
+          <width>50</width>
+          <height>50</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>50</width>
+          <height>50</height>
+         </size>
+        </property>
+        <property name="focusPolicy">
+         <enum>Qt::NoFocus</enum>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: snow;
+border-style: none;
+border-width: 1px;
+border-radius: 5px;
+border-color: snow;
+font: bold 18px;
+</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="3">
+       <widget class="QPushButton" name="bn304">
+        <property name="minimumSize">
+         <size>
+          <width>50</width>
+          <height>50</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>50</width>
+          <height>50</height>
+         </size>
+        </property>
+        <property name="focusPolicy">
+         <enum>Qt::NoFocus</enum>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: cornsilk;
+border-style: none;
+border-width: 1px;
+border-radius: 5px;
+border-color: cornsilk;
+font: bold 18px;
+</string>
+        </property>
+        <property name="text">
+         <string>А</string>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="8">
+       <widget class="QPushButton" name="bn309">
+        <property name="minimumSize">
+         <size>
+          <width>50</width>
+          <height>50</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>50</width>
+          <height>50</height>
+         </size>
+        </property>
+        <property name="focusPolicy">
+         <enum>Qt::NoFocus</enum>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: cornsilk;
+border-style: none;
+border-width: 1px;
+border-radius: 5px;
+border-color: cornsilk;
+font: bold 18px;
+</string>
+        </property>
+        <property name="text">
+         <string>Д</string>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="10">
+       <widget class="QPushButton" name="bn211">
+        <property name="minimumSize">
+         <size>
+          <width>50</width>
+          <height>50</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>50</width>
+          <height>50</height>
+         </size>
+        </property>
+        <property name="focusPolicy">
+         <enum>Qt::NoFocus</enum>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: cornsilk;
+border-style: none;
+border-width: 1px;
+border-radius: 5px;
+border-color: cornsilk;
+font: bold 18px;
+</string>
+        </property>
+        <property name="text">
+         <string>Х</string>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="2">
+       <widget class="QPushButton" name="bn303">
+        <property name="minimumSize">
+         <size>
+          <width>50</width>
+          <height>50</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>50</width>
+          <height>50</height>
+         </size>
+        </property>
+        <property name="focusPolicy">
+         <enum>Qt::NoFocus</enum>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: cornsilk;
+border-style: none;
+border-width: 1px;
+border-radius: 5px;
+border-color: cornsilk;
+font: bold 18px;
+</string>
+        </property>
+        <property name="text">
+         <string>В</string>
+        </property>
+       </widget>
+      </item>
+      <item row="3" column="2">
+       <widget class="QPushButton" name="bn403">
+        <property name="minimumSize">
+         <size>
+          <width>50</width>
+          <height>50</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>50</width>
+          <height>50</height>
+         </size>
+        </property>
+        <property name="focusPolicy">
+         <enum>Qt::NoFocus</enum>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: cornsilk;
+border-style: none;
+border-width: 1px;
+border-radius: 5px;
+border-color: cornsilk;
+font: bold 18px;
+</string>
+        </property>
+        <property name="text">
+         <string>С</string>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="1">
+       <widget class="QPushButton" name="bn302">
+        <property name="minimumSize">
+         <size>
+          <width>50</width>
+          <height>50</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>50</width>
+          <height>50</height>
+         </size>
+        </property>
+        <property name="focusPolicy">
+         <enum>Qt::NoFocus</enum>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: cornsilk;
+border-style: none;
+border-width: 1px;
+border-radius: 5px;
+border-color: cornsilk;
+font: bold 18px;
+</string>
+        </property>
+        <property name="text">
+         <string>Ы</string>
+        </property>
+       </widget>
+      </item>
+      <item row="3" column="6">
+       <widget class="QPushButton" name="bn407">
+        <property name="minimumSize">
+         <size>
+          <width>50</width>
+          <height>50</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>50</width>
+          <height>50</height>
+         </size>
+        </property>
+        <property name="focusPolicy">
+         <enum>Qt::NoFocus</enum>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: snow;
+border-style: none;
+border-width: 1px;
+border-radius: 5px;
+border-color: snow;
+font: bold 18px;
+</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="3">
+       <widget class="QPushButton" name="bn104">
+        <property name="minimumSize">
+         <size>
+          <width>50</width>
+          <height>50</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>50</width>
+          <height>50</height>
+         </size>
+        </property>
+        <property name="focusPolicy">
+         <enum>Qt::NoFocus</enum>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: lightgreen;
+border-style: none;
+border-width: 1px;
+border-radius: 5px;
+border-color: lightgreen;
+font: bold 18px;
+</string>
+        </property>
+        <property name="text">
+         <string>4</string>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="0">
+       <widget class="QPushButton" name="bn301">
+        <property name="minimumSize">
+         <size>
+          <width>50</width>
+          <height>50</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>50</width>
+          <height>50</height>
+         </size>
+        </property>
+        <property name="focusPolicy">
+         <enum>Qt::NoFocus</enum>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: cornsilk;
+border-style: none;
+border-width: 1px;
+border-radius: 5px;
+border-color: cornsilk;
+font: bold 18px;
+</string>
+        </property>
+        <property name="text">
+         <string>Ф</string>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="4">
+       <widget class="QPushButton" name="bn305">
+        <property name="minimumSize">
+         <size>
+          <width>50</width>
+          <height>50</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>50</width>
+          <height>50</height>
+         </size>
+        </property>
+        <property name="focusPolicy">
+         <enum>Qt::NoFocus</enum>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: cornsilk;
+border-style: none;
+border-width: 1px;
+border-radius: 5px;
+border-color: cornsilk;
+font: bold 18px;
+</string>
+        </property>
+        <property name="text">
+         <string>П</string>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="12">
+       <widget class="QPushButton" name="bn113">
+        <property name="minimumSize">
+         <size>
+          <width>50</width>
+          <height>50</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>50</width>
+          <height>50</height>
+         </size>
+        </property>
+        <property name="focusPolicy">
+         <enum>Qt::NoFocus</enum>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: Gray;
+border-style: none;
+border-width: 1px;
+border-radius: 5px;
+border-color: Gray;
+font: bold 18px;
+</string>
+        </property>
+        <property name="text">
+         <string>&lt;&lt;</string>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="7">
+       <widget class="QPushButton" name="bn308">
+        <property name="minimumSize">
+         <size>
+          <width>50</width>
+          <height>50</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>50</width>
+          <height>50</height>
+         </size>
+        </property>
+        <property name="focusPolicy">
+         <enum>Qt::NoFocus</enum>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: cornsilk;
+border-style: none;
+border-width: 1px;
+border-radius: 5px;
+border-color: cornsilk;
+font: bold 18px;
+</string>
+        </property>
+        <property name="text">
+         <string>Л</string>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="5">
+       <widget class="QPushButton" name="bn306">
+        <property name="minimumSize">
+         <size>
+          <width>50</width>
+          <height>50</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>50</width>
+          <height>50</height>
+         </size>
+        </property>
+        <property name="focusPolicy">
+         <enum>Qt::NoFocus</enum>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: cornsilk;
+border-style: none;
+border-width: 1px;
+border-radius: 5px;
+border-color: cornsilk;
+font: bold 18px;
+</string>
+        </property>
+        <property name="text">
+         <string>Р</string>
+        </property>
+       </widget>
+      </item>
+      <item row="0" column="11">
+       <widget class="QPushButton" name="bn112">
+        <property name="minimumSize">
+         <size>
+          <width>50</width>
+          <height>50</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>50</width>
+          <height>50</height>
+         </size>
+        </property>
+        <property name="focusPolicy">
+         <enum>Qt::NoFocus</enum>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: lightsteelblue;
+border-style: none;
+border-width: 1px;
+border-radius: 5px;
+border-color: lightsteelblue;
+font: bold 18px;
+</string>
+        </property>
+        <property name="text">
+         <string>=</string>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="6">
+       <widget class="QPushButton" name="bn307">
+        <property name="minimumSize">
+         <size>
+          <width>50</width>
+          <height>50</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>50</width>
+          <height>50</height>
+         </size>
+        </property>
+        <property name="focusPolicy">
+         <enum>Qt::NoFocus</enum>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: cornsilk;
+border-style: none;
+border-width: 1px;
+border-radius: 5px;
+border-color: cornsilk;
+font: bold 18px;
+</string>
+        </property>
+        <property name="text">
+         <string>О</string>
+        </property>
+       </widget>
+      </item>
+      <item row="3" column="1">
+       <widget class="QPushButton" name="bn402">
+        <property name="minimumSize">
+         <size>
+          <width>50</width>
+          <height>50</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>50</width>
+          <height>50</height>
+         </size>
+        </property>
+        <property name="focusPolicy">
+         <enum>Qt::NoFocus</enum>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: cornsilk;
+border-style: none;
+border-width: 1px;
+border-radius: 5px;
+border-color: cornsilk;
+font: bold 18px;
+</string>
+        </property>
+        <property name="text">
+         <string>Ч</string>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="11">
+       <widget class="QPushButton" name="bn312">
+        <property name="minimumSize">
+         <size>
+          <width>50</width>
+          <height>50</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>50</width>
+          <height>50</height>
+         </size>
+        </property>
+        <property name="focusPolicy">
+         <enum>Qt::NoFocus</enum>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: lightsteelblue;
+border-style: none;
+border-width: 1px;
+border-radius: 5px;
+border-color: lightsteelblue;
+font: bold 18px;
+</string>
+        </property>
+        <property name="text">
+         <string>\</string>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="12">
+       <widget class="QPushButton" name="bn313">
+        <property name="minimumSize">
+         <size>
+          <width>50</width>
+          <height>50</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>50</width>
+          <height>50</height>
+         </size>
+        </property>
+        <property name="focusPolicy">
+         <enum>Qt::NoFocus</enum>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: lightsteelblue;
+border-style: none;
+border-width: 1px;
+border-radius: 5px;
+border-color: lightsteelblue;
+font: bold 18px;
+</string>
+        </property>
+        <property name="text">
+         <string>.</string>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="12">
+       <widget class="QPushButton" name="bn213">
+        <property name="minimumSize">
+         <size>
+          <width>50</width>
+          <height>50</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>50</width>
+          <height>50</height>
+         </size>
+        </property>
+        <property name="focusPolicy">
+         <enum>Qt::NoFocus</enum>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: gray;
+border-style: none;
+border-width: 1px;
+border-radius: 5px;
+border-color: gray;
+font: bold 18px;
+</string>
+        </property>
+        <property name="text">
+         <string>CR</string>
+        </property>
+       </widget>
+      </item>
+      <item row="3" column="12">
+       <widget class="QPushButton" name="bn413">
+        <property name="minimumSize">
+         <size>
+          <width>50</width>
+          <height>50</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>50</width>
+          <height>50</height>
+         </size>
+        </property>
+        <property name="focusPolicy">
+         <enum>Qt::NoFocus</enum>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: lightsteelblue;
+border-style: none;
+border-width: 1px;
+border-radius: 5px;
+border-color: lightsteelblue;
+font: bold 18px;
+</string>
+        </property>
+        <property name="text">
+         <string>,</string>
+        </property>
+       </widget>
+      </item>
+      <item row="3" column="8">
+       <widget class="QPushButton" name="bn409">
+        <property name="minimumSize">
+         <size>
+          <width>50</width>
+          <height>50</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>50</width>
+          <height>50</height>
+         </size>
+        </property>
+        <property name="focusPolicy">
+         <enum>Qt::NoFocus</enum>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: cornsilk;
+border-style: none;
+border-width: 1px;
+border-radius: 5px;
+border-color: cornsilk;
+font: bold 18px;
+</string>
+        </property>
+        <property name="text">
+         <string>Ь</string>
+        </property>
+       </widget>
+      </item>
+      <item row="3" column="7">
+       <widget class="QPushButton" name="bn408">
+        <property name="minimumSize">
+         <size>
+          <width>50</width>
+          <height>50</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>50</width>
+          <height>50</height>
+         </size>
+        </property>
+        <property name="focusPolicy">
+         <enum>Qt::NoFocus</enum>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: cornsilk;
+border-style: none;
+border-width: 1px;
+border-radius: 5px;
+border-color: cornsilk;
+font: bold 18px;
+</string>
+        </property>
+        <property name="text">
+         <string>Т</string>
+        </property>
+       </widget>
+      </item>
+      <item row="3" column="10">
+       <widget class="QPushButton" name="bn411">
+        <property name="minimumSize">
+         <size>
+          <width>50</width>
+          <height>50</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>50</width>
+          <height>50</height>
+         </size>
+        </property>
+        <property name="focusPolicy">
+         <enum>Qt::NoFocus</enum>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: cornsilk;
+border-style: none;
+border-width: 1px;
+border-radius: 5px;
+border-color: cornsilk;
+font: bold 18px;
+</string>
+        </property>
+        <property name="text">
+         <string>Ю</string>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="7">
+       <widget class="QPushButton" name="bn208">
+        <property name="minimumSize">
+         <size>
+          <width>50</width>
+          <height>50</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>50</width>
+          <height>50</height>
+         </size>
+        </property>
+        <property name="focusPolicy">
+         <enum>Qt::NoFocus</enum>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: cornsilk;
+border-style: none;
+border-width: 1px;
+border-radius: 5px;
+border-color: cornsilk;
+font: bold 18px;
+</string>
+        </property>
+        <property name="text">
+         <string>Ш</string>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="9">
+       <widget class="QPushButton" name="bn210">
+        <property name="minimumSize">
+         <size>
+          <width>50</width>
+          <height>50</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>50</width>
+          <height>50</height>
+         </size>
+        </property>
+        <property name="focusPolicy">
+         <enum>Qt::NoFocus</enum>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: cornsilk;
+border-style: none;
+border-width: 1px;
+border-radius: 5px;
+border-color: cornsilk;
+font: bold 18px;
+</string>
+        </property>
+        <property name="text">
+         <string>З</string>
+        </property>
+       </widget>
+      </item>
+      <item row="2" column="10">
+       <widget class="QPushButton" name="bn311">
+        <property name="minimumSize">
+         <size>
+          <width>50</width>
+          <height>50</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>50</width>
+          <height>50</height>
+         </size>
+        </property>
+        <property name="focusPolicy">
+         <enum>Qt::NoFocus</enum>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: cornsilk;
+border-style: none;
+border-width: 1px;
+border-radius: 5px;
+border-color: cornsilk;
+font: bold 18px;
+</string>
+        </property>
+        <property name="text">
+         <string>Э</string>
+        </property>
+       </widget>
+      </item>
+      <item row="1" column="8">
+       <widget class="QPushButton" name="bn209">
+        <property name="minimumSize">
+         <size>
+          <width>50</width>
+          <height>50</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>50</width>
+          <height>50</height>
+         </size>
+        </property>
+        <property name="focusPolicy">
+         <enum>Qt::NoFocus</enum>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: cornsilk;
+border-style: none;
+border-width: 1px;
+border-radius: 5px;
+border-color: cornsilk;
+font: bold 18px;
+</string>
+        </property>
+        <property name="text">
+         <string>Щ</string>
+        </property>
+       </widget>
+      </item>
+     </layout>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="gridLayoutWidget_2">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>530</y>
+      <width>151</width>
+      <height>231</height>
+     </rect>
+    </property>
+    <layout class="QGridLayout" name="glCtlKeys">
+     <item row="0" column="0">
+      <widget class="QPushButton" name="bnC11">
+       <property name="minimumSize">
+        <size>
+         <width>70</width>
+         <height>70</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>70</width>
+         <height>70</height>
+        </size>
+       </property>
+       <property name="focusPolicy">
+        <enum>Qt::NoFocus</enum>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: Bisque;
+border-style: none;
+border-width: 1px;
+border-radius: 10px;
+border-color: Bisque;
+font: bold 18px;
+</string>
+       </property>
+       <property name="text">
+        <string>ФР</string>
+       </property>
+      </widget>
+     </item>
+     <item row="0" column="1">
+      <widget class="QPushButton" name="bnC12">
+       <property name="minimumSize">
+        <size>
+         <width>70</width>
+         <height>70</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>70</width>
+         <height>70</height>
+        </size>
+       </property>
+       <property name="focusPolicy">
+        <enum>Qt::NoFocus</enum>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: Bisque;
+border-style: none;
+border-width: 1px;
+border-radius: 10px;
+border-color: Bisque;
+font: bold 18px;
+</string>
+       </property>
+       <property name="text">
+        <string>ПРМ</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="0">
+      <widget class="QPushButton" name="bnC21">
+       <property name="minimumSize">
+        <size>
+         <width>70</width>
+         <height>70</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>70</width>
+         <height>70</height>
+        </size>
+       </property>
+       <property name="focusPolicy">
+        <enum>Qt::NoFocus</enum>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: Bisque;
+border-style: none;
+border-width: 1px;
+border-radius: 10px;
+border-color: Bisque;
+font: bold 18px;
+</string>
+       </property>
+       <property name="text">
+        <string>1</string>
+       </property>
+      </widget>
+     </item>
+     <item row="1" column="1">
+      <widget class="QPushButton" name="bnC22">
+       <property name="minimumSize">
+        <size>
+         <width>70</width>
+         <height>70</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>70</width>
+         <height>70</height>
+        </size>
+       </property>
+       <property name="focusPolicy">
+        <enum>Qt::NoFocus</enum>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: Bisque;
+border-style: none;
+border-width: 1px;
+border-radius: 10px;
+border-color: Bisque;
+font: bold 18px;
+</string>
+       </property>
+       <property name="text">
+        <string>1</string>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="0">
+      <widget class="QPushButton" name="bnC31">
+       <property name="minimumSize">
+        <size>
+         <width>70</width>
+         <height>70</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>70</width>
+         <height>70</height>
+        </size>
+       </property>
+       <property name="focusPolicy">
+        <enum>Qt::NoFocus</enum>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: red;
+color: white;
+border-style: none;
+border-width: 1px;
+border-radius: 10px;
+border-color: red;
+font: bold 18px;
+</string>
+       </property>
+       <property name="text">
+        <string>Вык</string>
+       </property>
+      </widget>
+     </item>
+     <item row="2" column="1">
+      <widget class="QPushButton" name="bnC32">
+       <property name="minimumSize">
+        <size>
+         <width>70</width>
+         <height>70</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>70</width>
+         <height>70</height>
+        </size>
+       </property>
+       <property name="focusPolicy">
+        <enum>Qt::NoFocus</enum>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: Bisque;
+border-style: none;
+border-width: 1px;
+border-radius: 10px;
+border-color: Bisque;
+font: bold 18px;
+</string>
+       </property>
+       <property name="text">
+        <string>1</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </widget>
+  </widget>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>
